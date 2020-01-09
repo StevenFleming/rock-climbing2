@@ -1,0 +1,55 @@
+
+.impact {
+  color: brown;
+   font: bold 52px Helvetica, Arial, Sans-Serif;
+   text-shadow: 1px 1px #E5AC34,
+                2px 2px #E5AC34,
+                3px 3px #E5AC34;
+   -webkit-transition: all 0.12s ease-out;
+   -moz-transition:    all 0.12s ease-out;
+   -ms-transition:     all 0.12s ease-out;
+   -o-transition:      all 0.12s ease-out;
+}
+
+body {
+  background-color: coral;
+}
+
+.container {
+       margin: auto;
+       max-width:1175px;
+       padding-left: 15px;
+       padding-right: 15px;
+       background-color: #E5AC34;
+       border: 5px solid #ccc;
+       border-radius: 4px;
+       }
+
+img {
+  border-color: white
+}
+
+
+
+
+
+
+
+
+/*////////////////////////*/
+@media screen and (max-width: 768px) {
+  body {
+    width:300;
+    float: left;
+    padding: 80px;
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: teal;
+    color: red;
+  }
+}
